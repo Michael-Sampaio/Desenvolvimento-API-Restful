@@ -16,4 +16,5 @@ public enum Categoria {
         }
         throw new EnumValidationException("Categoria inválida");
     }
+
 }

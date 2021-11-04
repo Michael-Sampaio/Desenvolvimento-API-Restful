@@ -32,4 +32,5 @@ public enum Combustivel {
         }
         throw new EnumValidationException("Combustível inválido");
     }
+
 }

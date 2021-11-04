@@ -55,4 +55,30 @@ public class Fornecedor {
         this.telefone = telefone;
     }
 
+    // Equals e Hashcode agilizam buscas
+    @Override
+    public int hashCode() {
+        final Integer prime = 31;
+        Integer result = 1;
+        result = prime * result + ((id == null) ? 0 : id.hashCode());
+        return result;
+    }
+
+    @Override
+    public boolean equals(Object obj) {
+        if (this == obj)
+            return true;
+        if (obj == null)
+            return false;
+        if (getClass() != obj.getClass())
+            return false;
+        Fornecedor fornecedor = (Fornecedor) obj;
+        if (id == null) {
+            if (fornecedor.id != null)
+                return false;
+        } else if (!id.equals(fornecedor.id))
+            return false;
+        return true;
+    }
+
 }

@@ -1,5 +1,7 @@
 package br.org.serratec.backend.model;
 
+import java.math.BigDecimal;
+
 import javax.persistence.Column;
 import javax.persistence.Entity;
 import javax.persistence.GeneratedValue;
@@ -7,13 +9,15 @@ import javax.persistence.GenerationType;
 import javax.persistence.Id;
 
 @Entity
-public class Fabricante {
+public class Servico {
     @Id
     @GeneratedValue(strategy = GenerationType.IDENTITY)
-    @Column(name = "id_fabricante")
+    @Column(name = "id_servico")
     private Long id;
     @Column
-    private String nome;
+    private String descricao;
+    @Column
+    private BigDecimal valor;
 
     public Long getId() {
         return this.id;
@@ -23,12 +27,20 @@ public class Fabricante {
         this.id = id;
     }
 
-    public String getNome() {
-        return this.nome;
+    public String getDescricao() {
+        return this.descricao;
     }
 
-    public void setNome(String nome) {
-        this.nome = nome;
+    public void setDescricao(String descricao) {
+        this.descricao = descricao;
+    }
+
+    public BigDecimal getValor() {
+        return this.valor;
+    }
+
+    public void setValor(BigDecimal valor) {
+        this.valor = valor;
     }
 
     // Equals e Hashcode agilizam buscas
@@ -48,13 +60,13 @@ public class Fabricante {
             return false;
         if (getClass() != obj.getClass())
             return false;
-        Fabricante fabricante = (Fabricante) obj;
+        Servico servico = (Servico) obj;
         if (id == null) {
-            if (fabricante.id != null)
+            if (servico.id != null)
                 return false;
-        } else if (!id.equals(fabricante.id))
+        } else if (!id.equals(servico.id))
             return false;
         return true;
     }
-
+    
 }
