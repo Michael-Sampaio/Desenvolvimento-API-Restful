@@ -1,0 +1,71 @@
+{
+    "configurations": [
+        {
+            "type": "java",
+            "name": "Launch Projeto04Application",
+            "request": "launch",
+            "mainClass": "br.org.serratec.backend.Projeto04Application",
+            "projectName": "projeto04"
+        },
+        {
+            "type": "java",
+            "name": "Spring Boot-Projeto03Application<projeto03>",
+            "request": "launch",
+            "cwd": "${workspaceFolder}",
+            "console": "internalConsole",
+            "mainClass": "br.org.serratec.backend.Projeto03Application",
+            "projectName": "projeto03",
+            "args": ""
+        },
+        {
+            "type": "java",
+            "name": "Spring Boot-Projeto03bancoaula3Application<projeto03bancoaula3>",
+            "request": "launch",
+            "cwd": "${workspaceFolder}",
+            "console": "internalConsole",
+            "mainClass": "br.org.serratech.backend.projeto03bancoaula3.Projeto03bancoaula3Application",
+            "projectName": "projeto03bancoaula3",
+            "args": ""
+        },
+        {
+            "type": "java",
+            "name": "Spring Boot-Projeto03bancoaula3Application<projeto03bancoaula3>",
+            "request": "launch",
+            "cwd": "${workspaceFolder}",
+            "console": "internalConsole",
+            "mainClass": "br.org.serratech.backend.Projeto03bancoaula3Application",
+            "projectName": "projeto03bancoaula3",
+            "args": ""
+        },
+        {
+            "type": "java",
+            "name": "Spring Boot-Projeto03Application<projeto03bancoaula3>",
+            "request": "launch",
+            "cwd": "${workspaceFolder}",
+            "console": "internalConsole",
+            "mainClass": "br.org.serratech.backend.Projeto03Application",
+            "projectName": "projeto03bancoaula3",
+            "args": ""
+        },
+        {
+            "type": "java",
+            "name": "Spring Boot-Projeto05Application<projeto05>",
+            "request": "launch",
+            "cwd": "${workspaceFolder}",
+            "console": "internalConsole",
+            "mainClass": "br.org.serratec.backend.Projeto05Application",
+            "projectName": "projeto05",
+            "args": ""
+        },
+        {
+            "type": "java",
+            "name": "Spring Boot-Projeto06Application<projeto06>",
+            "request": "launch",
+            "cwd": "${workspaceFolder}",
+            "console": "internalConsole",
+            "mainClass": "br.org.serratec.backend.Projeto06Application",
+            "projectName": "projeto06",
+            "args": ""
+        }
+    ]
+}

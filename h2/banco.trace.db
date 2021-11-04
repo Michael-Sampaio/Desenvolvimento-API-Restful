@@ -1,0 +1,5 @@
+2021-11-03 17:08:01 jdbc[13]: exception
+org.h2.jdbc.JdbcSQLSyntaxErrorException: Syntax error in SQL statement "DROP TABLE PESSOA_FISICA,
+DROP TABLE[*] PESSOA_JURIDICA"; SQL statement:
+drop table pessoa_fisica,
+drop table pessoa_juridica [42000-200]
