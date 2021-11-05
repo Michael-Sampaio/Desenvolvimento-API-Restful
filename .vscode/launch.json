@@ -2,6 +2,13 @@
     "configurations": [
         {
             "type": "java",
+            "name": "Launch ProjetoServiceDtoApplication",
+            "request": "launch",
+            "mainClass": "br.org.serratec.backend.ProjetoServiceDtoApplication",
+            "projectName": "projeto07"
+        },
+        {
+            "type": "java",
             "name": "Launch Projeto04Application",
             "request": "launch",
             "mainClass": "br.org.serratec.backend.Projeto04Application",
