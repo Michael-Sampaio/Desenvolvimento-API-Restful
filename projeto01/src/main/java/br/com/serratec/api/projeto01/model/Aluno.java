@@ -29,5 +29,4 @@ public class Aluno {
 	public String getEmail() {
 		return email;
 	}
-
 }
