@@ -73,6 +73,26 @@
             "mainClass": "br.org.serratec.backend.Projeto06Application",
             "projectName": "projeto06",
             "args": ""
+        },
+        {
+            "type": "java",
+            "name": "Spring Boot-Projeto07Application<projeto07 (2)>",
+            "request": "launch",
+            "cwd": "${workspaceFolder}",
+            "console": "internalConsole",
+            "mainClass": "br.org.serratec.backend.Projeto07Application",
+            "projectName": "projeto07 (2)",
+            "args": ""
+        },
+        {
+            "type": "java",
+            "name": "Spring Boot-PaginacaoApplication<projeto07 (2)>",
+            "request": "launch",
+            "cwd": "${workspaceFolder}",
+            "console": "internalConsole",
+            "mainClass": "org.serratec.backend.PaginacaoApplication",
+            "projectName": "projeto07 (2)",
+            "args": ""
         }
     ]
 }
