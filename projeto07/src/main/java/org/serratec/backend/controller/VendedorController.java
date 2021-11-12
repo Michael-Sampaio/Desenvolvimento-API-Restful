@@ -35,9 +35,9 @@ public class VendedorController {
 	}
 	
 	@GetMapping("/salario")
-	public ResponseEntity<Page<Vendedor>> listarPorFaixaSalarial(@RequestParam Double valorMinimo,
-			@RequestParam Double valorMaximo, Pageable pageable){
-		
+	public ResponseEntity<Page<Vendedor>> listarPorFaixaSalarial(@PageableDefault(page = 1) @RequestParam(defaultValue = "0") Double valorMinimo,
+			@RequestParam(defaultValue = "10000") Double valorMaximo, Pageable pageable) {
+
 		Page<Vendedor> vendedores = vendedorRepository.buscarFaixaSalario(valorMinimo, valorMaximo, pageable);
 		return ResponseEntity.ok(vendedores);
 	}

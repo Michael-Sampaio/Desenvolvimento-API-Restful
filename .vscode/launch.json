@@ -93,6 +93,16 @@
             "mainClass": "org.serratec.backend.PaginacaoApplication",
             "projectName": "projeto07 (2)",
             "args": ""
+        },
+        {
+            "type": "java",
+            "name": "Spring Boot-RevisaoApplication<revisao>",
+            "request": "launch",
+            "cwd": "${workspaceFolder}",
+            "console": "internalConsole",
+            "mainClass": "br.org.serratec.backend.RevisaoApplication",
+            "projectName": "revisao",
+            "args": ""
         }
     ]
 }
